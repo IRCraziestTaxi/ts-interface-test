@@ -1,0 +1,17 @@
+{
+    "type": "mysql",
+    "host": "192.168.33.10",
+    "port": 3306,
+    "username": "root",
+    "password": "root",
+    "database": "ts-interface-test",
+    "entities": [
+        "dist/**/*.entity.js"
+    ],
+    "migrations": [
+        "dist/_migrations/*.js"
+    ],
+    "cli": {
+        "migrationsDir": "src/_migrations"
+    }
+}
